@@ -1,0 +1,217 @@
+/* 
+primary color :  #fff2d8,  yellow
+secondary color : #9a2526, red 
+*/
+
+
+.payDue-container {
+    background-color: #fff2d8;
+    padding: 1px 100px;
+}
+
+
+.chit-form-input {
+    width: 400px;
+    background-color: none !important;
+
+}
+
+.form-main {
+    display: flex;
+}
+
+.left-input {
+    margin-right: 50px;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 30px;
+}
+
+.payDue-title-outer {
+    padding: 50px 0px;
+}
+
+.joinNow {
+    color: #9a2526;
+}
+
+
+.photo-upload {
+    width: 400px;
+    border: none;
+    border: 1px solid #9e9e9e !important;
+}
+
+.address-upload {
+    width: 400px;
+    border: none;
+    border: 1px solid #9e9e9e !important;
+}
+
+
+
+
+
+
+
+
+/* antd default class */
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-input {
+    background: none;
+    border-bottom: 1px solid #9e9e9e !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-right: none !important;
+
+    box-shadow: none;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector {
+    background: none;
+    border-bottom: 1px solid #9e9e9e !important;
+    border-radius: 0px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-input:hover {
+    border-color: #9a2526 !important;
+    border-color: none !important;
+    border-bottom: 1PX solid;
+    background: none;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+    border-color: #9a2526 !important;
+    border-color: none !important;
+    border-bottom: 1PX solid;
+    background: none;
+}
+
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-input:active {
+    border-color: #9a2526;
+    background: none !important;
+
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):active .ant-select-selector {
+    border-color: #9a2526;
+    background: none !important;
+
+}
+
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-input:focus {
+    border-color: #9a2526;
+    background: none !important;
+
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):focus .ant-select-selector {
+    border-color: #9a2526;
+    background: none !important;
+
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-input:focus-visible {
+    border-color: #9a2526;
+    background: none !important;
+
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):focus-visible .ant-select-selector {
+    border-color: #9a2526;
+    background: none !important;
+
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-input::after {
+    border-color: #9a2526;
+    background: none !important;
+
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer)::after .ant-select-selector {
+    border-color: #9a2526;
+    background: none !important;
+
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #9a2526;
+    border-color: #9a2526;
+}
+
+
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table-thead>tr>th,
+:where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table-thead>tr>td {
+    background: #9a2526;
+    color: white !important;
+
+}
+
+
+@media(max-width:1040px) {
+    .form-main {
+        display: block;
+    }
+
+    .payDue-container {
+        background-color: #fff2d8;
+        padding: 0px 50px;
+
+    }
+
+    .payDue-main {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .joinNow {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:500px) {
+    .payDue-container {
+        background-color: #fff2d8;
+        padding: 0px 20px !important;
+
+    }
+
+    .chit-form-input {
+        width: 100%;
+        background-color: none !important;
+
+    }
+
+    .left-input {
+        margin-right: 0px;
+    }
+
+    
+.photo-upload {
+    width: 100%;
+    border: none;
+    border: 1px solid #9e9e9e !important;
+}
+
+.address-upload {
+    width: 100%;
+    border: none;
+    border: 1px solid #9e9e9e !important;
+}
+
+.payDue-title-outer {
+    padding: 50px 0px 20px 0px;
+}
+
+}

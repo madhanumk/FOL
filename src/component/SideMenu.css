@@ -1,0 +1,50 @@
+/* 
+primary color :  #fff2d8,  yellow
+secondary color : #9a2526, red 
+*/
+
+.logo-cover{
+    display: flex;
+    justify-content: center;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-modal-confirm .ant-modal-confirm-btns .ant-btn+.ant-btn{
+    background:#9a2526 ;
+}
+
+
+.ant-btn-primary{
+    background-color: #a94f4f ;
+    font-weight: 600;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover{
+    background-color: #a94f4f ;
+}
+
+
+@media(max-width:1040px){
+
+    .responsive-menu{
+        display: none;
+    }
+
+    .logo-cover{
+        justify-content: start;
+    }
+
+    
+    .logo-mobile{
+        width: 20%;
+    }
+    .outer-menu{
+        padding-top: 50px;
+        text-align: left;
+        position: relative;
+    }
+
+    .socialmedia-outer{
+        position: absolute;
+        bottom: 100px;
+    }
+}

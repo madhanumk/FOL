@@ -1,0 +1,110 @@
+/* 
+primary color :  #fff2d8,  yellow
+secondary color : #9a2526, red 
+*/
+
+.chit-main-container{
+    background-color: #fff2d8;
+    padding: 50px 100px 50px 100px;
+    height: auto;
+    position: relative;
+
+}
+
+.container-chit-details {
+    display: flex;
+    align-items: center !important;
+}
+
+
+
+.chit-details-title {
+    color: #9a2526;
+    margin-bottom: 20px;
+}
+
+.chit-details-subTitle {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.select-option-outer {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+
+.new-chit-image{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-table-wrapper .ant-table-thead>tr>th {
+    background-color: #9a2526 !important;
+    color: white !important;
+    font-size: 14px;
+    overflow-x: auto !important;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table-thead>tr>th,
+:where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table-thead>tr>td {
+    background: #9a2526;
+    font-size: 14px;
+    overflow-x: auto !important;
+    color: white !important;
+
+}
+
+@media(max-width:1990px) {
+
+    .chit-main-container{
+        height: 100vh;
+    }
+}
+
+
+@media(max-width:1040px) {
+
+    .chit-main-container{
+        background-color: #fff2d8;
+        padding: 70px 50px 0px 50px;
+        height: auto;
+    }
+
+    .container-chit-details {
+       
+        display: block;
+        align-items: center !important;
+       
+    }
+
+    .chit-details-image-cover {
+        display: none;
+    }
+
+    .chit-details-title {
+        font-size: 25px;
+    }
+
+    .chit-details-left {
+        width: 100%;
+        padding: 20px 0px 20px 0px;
+    }
+
+
+}
+
+
+@media(max-width:500px) {
+    .chit-main-container{
+        background-color: #fff2d8;
+        padding: 70px 20px 0px 20px;
+        height: auto;
+    }
+  
+    :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper table{
+        overflow-x: scroll;
+    }
+}

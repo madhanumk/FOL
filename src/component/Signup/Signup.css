@@ -1,0 +1,145 @@
+/* 
+primary color :  #fff2d8,  yellow
+secondary color : #9a2526, red 
+*/
+
+.container-signup {
+  background-color:#fff2d8 ;
+position: relative;
+  padding: 20px 100px 40px 100px;
+  display: flex;
+  align-items: center !important;
+}
+
+.signup-left {
+  width: 400px;
+  padding: 50px 0px;
+}
+
+
+/* .login-side-img {
+  height: 782px;
+} */
+
+
+.signup-title {
+  color: #9a2526
+}
+
+.login-subTitle {
+  font-size: 24px;
+  color: black;
+}
+
+
+.login-input-warrper {
+  position: relative;
+}
+
+.login-input-warrper input[type="text"] {
+  padding-left: 35px !important;
+}
+
+.login-input-warrper input[type="text"] .login-input-style:hover {
+  border-color: none !important;
+  border-bottom-color: #9e9e9e !important;
+  background-color: transparent;
+}
+
+.login-input-warrper input[type="tel"] {
+  padding-left: 35px !important;
+}
+
+.login-input-icon {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  color: #9a2526;
+}
+
+.login-input-style {
+  background: none !important;
+  border-bottom: 1px solid #9e9e9e !important;
+  border: none;
+  border-radius: 0px;
+
+}
+
+.login-input-style:hover {
+  background: none;
+  border: none;
+}
+
+.login-input-style:active {
+  background: none;
+  border: none !important;
+}
+
+.login-input-style:focus {
+  background: none;
+  border: none !important;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+  border-bottom: 1px solid #ff4d4f !important;
+}
+
+.ant-form-item .ant-form-item-label>label {
+  font-size: 16px !important;
+  font-weight: 600;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-btn.ant-btn-lg {
+  padding: 6.428571428571429px 30px;
+  border-radius: 2px;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-input-affix-wrapper>input.ant-input {
+  background: none;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-form-vertical .ant-form-item-label {
+  padding: 0px;
+}
+
+@media(min-width:1440){
+  .container-signup{
+    height: 100vh !important;
+  }
+}
+
+@media(max-width:1040px) {
+
+  .container-signup {
+    padding: 0px 50px;
+    display: flex;
+    align-items: center !important;
+    height: auto;
+    justify-content: center;
+  }
+
+  .signup-title{
+    margin-top: 20px;
+  }
+
+  .signup-outer {
+    display: none;
+  }
+}
+
+
+@media(max-width:500px) {
+
+  .container-signup {
+    padding: 0px 20px;
+  }
+
+  .signup-title {
+    font-size: 35px;
+  }
+
+  .signup-left {
+    width: 100%;
+    padding: 70px 0px 20px 0px;
+  }
+}

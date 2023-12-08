@@ -1,0 +1,32 @@
+
+
+/* 
+primary color :  #fff2d8,  yellow
+secondary color : #9a2526, red 
+*/
+
+.closedDue-containerfluid{
+    background-color:#fff2d8 ;
+
+}
+
+.closed-container{
+    padding: 0px 100px 20px 100px;
+
+}
+
+@media(max-width:1040px){
+    .closed-container{
+        padding: 0px 50px 20px 50px;        
+    }
+
+    .closed-due-title{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:500px){
+    .closed-container{
+        padding: 0px 20px 20px 20px;        
+    }
+}

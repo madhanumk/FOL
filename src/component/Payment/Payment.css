@@ -1,0 +1,80 @@
+
+/* 
+primary color :  #fff2d8,  yellow
+secondary color : #9a2526, red 
+*/
+
+
+.closedDue-container{
+    background-color:#fff2d8 ;
+    padding: 0px 100px;
+   
+}
+
+.closedDue-title-outer{
+    padding: 50px 0px 20px 0px;
+
+}
+
+.closedDue-pay-outer{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: flex-end;;
+}
+
+.closedDue-pay{
+    padding: 5px 60px !important;
+    background-color: #9a2526;
+    color: white;
+    font-weight: 600;
+    border-radius: 5PX;
+}
+.closedDue-pay:hover{
+    background-color: #a84647;
+}
+
+.closed-due-title{
+    color: #9a2526;
+    font-size: 25px;
+}
+
+.completed-due-title{
+    color: #9a2526;
+    font-size: 25px;
+}
+
+@media(max-width:1040px) {
+
+    .closedDue-container{
+        padding: 0px 50px;    
+    }
+
+    .closedDue-title-outer {
+        padding: 70px 0px 20px 0px;
+
+    }
+
+    .completed-title-outer{
+        padding: 20px 0px 20px 0px;
+    }
+}
+
+@media(max-width:500px) {
+
+    .closedDue-container{
+        padding: 0px 20px;    
+    }
+    .select-option-outer{
+        display:block ;
+    }
+    .closedDue-title-outer {
+        padding: 70px 0px 10px 0px;
+
+    }
+
+
+    :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table-cell, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper tfoot>tr>th, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper tfoot>tr>td {
+        padding: 16px 5px;
+    }
+   
+}

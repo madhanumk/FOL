@@ -1,0 +1,223 @@
+/* 
+primary color :  #fff2d8,  yellow
+secondary color : #9a2526, red 
+*/
+
+.home-container-fluid {
+    background-color: #fff2d8;
+    position: relative;
+
+}
+
+.home-container {
+    padding: 0px 0px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-left {
+    padding-top: 50px;
+    width: 50%;
+}
+
+.priceDetails {
+    background: #9a2526;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.calendor {
+    color: white;
+    padding-right: 10px;
+}
+
+.product-price {
+    color: #f7cd5b;
+    font-weight: 500;
+}
+
+.chit-details-title {
+    padding: 40px 0px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product-price {
+    color: #f7cd5b;
+    font-weight: 500;
+}
+
+.home-payDue {
+    display: flex;
+    margin-top: 30px;
+}
+
+.home-payBtn {
+    background: #9a2526;
+    padding: 5px 25px;
+    border-radius: 8px;
+    color: #f7cd5b;
+    margin-left: 10px;
+}
+
+.discount-outer {
+    margin: 30px 0px;
+}
+
+.home-subTitle {
+    margin-bottom: 10px;
+    color: #9a2526;
+}
+
+.custom-table .ant-table-thead th {
+    text-align: center;
+}
+
+.home-table-outer {
+    width: 100%;
+}
+
+
+.gold-stage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gold-low {
+    background-color: #f7cd5b;
+    color: #9a2526;
+    padding: 6px 25px;
+}
+
+.gold-heigh {
+    background-color: #f7cd5b;
+    color: #9a2526;
+    padding: 6px 25px;
+}
+
+.gold-gram {
+    background: #f7cd5b;
+    color: #9a2526;
+    padding: 6px 25px;
+}
+
+.gold-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.gold-minprice {
+    color: #f7cd5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gold-maxprice {
+    color: #f7cd5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gold-gramprice {
+    color: #f7cd5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-modal .ant-modal-content {
+    background-color: #9a2526;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-modal .ant-modal-title {
+    background-color: #9a2526;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-modal .ant-modal-close {
+    color: white;
+}
+
+@media(max-width:1040px) {
+
+    .home-container-fluid {
+        height: auto;
+    }
+
+    .home-container {
+        padding: 0px 50px 0px 50px;
+    }
+
+    .home-right {
+        display: none;
+    }
+
+    .home-left {
+        width: 100%;
+        padding: 70px 0px 20px 0px;
+    }
+}
+
+
+@media(max-width: 1024px) {
+    .chit-details-title {
+        padding: 75px 0px 0px 50px; 
+    
+    }
+
+    .home-left {
+        width: 100%;
+        padding: 20px 0px 20px 0px;
+    }
+}
+
+@media(max-width:500px) {
+    .home-container {
+        padding: 0px 20px;
+    }
+
+    .chit-details-title {
+        padding: 75px 20px 0px 20px; 
+    
+    }
+
+    .discount-outer {
+        margin: 30px 0px 0px 0px;
+    }
+}
+
+
+@media(max-width:425px) {
+    .gold-low {
+        padding: 6px 10px;
+    }
+
+    .gold-heigh {
+        padding: 6px 10px;
+    }
+
+    .gold-gram {
+        padding: 6px 10px;
+    }
+
+}
+
+
+.scrolling-text {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scroll 20s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
